@@ -13,4 +13,16 @@ public class Sala {
 	private Long id;
 	
 	private String numero;
+	
+	public String getNumero() {
+		return numero;
+	}
+
+	public void setNumero(String numero) {
+		this.numero = numero;
+	}
+
+	public Long getId() {
+		return id;
+	}
 }
